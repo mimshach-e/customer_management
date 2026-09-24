@@ -40,6 +40,10 @@ class Customer:
     def delete(customer):
         del customers_data[customer.customer_id] 
         print(f"Customer {customer.customer_id} {customer.name} deleted successfully! \n")  
+    
+    def __repr__(self):
+        return f"Customer({self.customer_id}, {self.name}, {self.email}, {self.phone}, {self.address})"
+
 
 
     # Method for Searching Customers 

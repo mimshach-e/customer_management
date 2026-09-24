@@ -35,7 +35,10 @@ print("Customer updated successfully! \n")
 #Deleting a Customer
 print("DELETING A CUSTOMER")
 customer2.delete()
+print(customers_data)         
+print(len(customers_data))
 
+print("\n")
 
 #Searching for a Customer
 print("SEARCHING FOR A CUSTOMER")
