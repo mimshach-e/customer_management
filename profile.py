@@ -42,7 +42,7 @@ class Customer:
         print(f"Customer {customer.customer_id} {customer.name} deleted successfully! \n")  
 
 
-    # Method for Deleting Customers 
+    # Method for Searching Customers 
     def search_customer(self, customer_id):
         if customer_id in customers_data:
             customer = customers_data[customer_id]
