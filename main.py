@@ -1,8 +1,8 @@
 # Importing Everything; Dictionary, Customer Class and its Methods from profile.py Module
 from profile import *
 
-# Checks
 
+# Check for User Inputed ID
 def read_customer_id(prompt="Enter Customer ID: "):
     while True:
         raw_id = input(prompt).strip()
@@ -14,7 +14,6 @@ def read_customer_id(prompt="Enter Customer ID: "):
     
     
             
-
 
 def ask_fields(existing=None):
     values = {}
